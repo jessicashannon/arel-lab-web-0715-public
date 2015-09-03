@@ -28,8 +28,12 @@ class Boat < ActiveRecord::Base
   end
 
   def self.with_three_classifications
-    
+    # Boat.select()
+
+    # SELECT NAME, COUNT as count FROM BOATS INNER JOIN CLASSIFICATIONS GROUP BY NAME WHERE count = 3
   end
+
+
 
 
 end
